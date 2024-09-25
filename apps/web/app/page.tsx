@@ -10,7 +10,7 @@ export default function Home() {
           Hello world!
         </h1>
 
-        <Button appName={'webapp'}>{'이것은 버튼'}</Button>
+        <Button label={'이것은 버튼'} size={'medium'} primary={true}/>
       </main>
     </div>
   );
