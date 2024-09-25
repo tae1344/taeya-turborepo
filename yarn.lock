@@ -1073,12 +1073,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@repo/ui@npm:*, @repo/ui@workspace:^, @repo/ui@workspace:packages/ui":
+"@repo/ui@npm:*, @repo/ui@workspace:*, @repo/ui@workspace:packages/ui":
   version: 0.0.0-use.local
   resolution: "@repo/ui@workspace:packages/ui"
   dependencies:
     "@repo/eslint-config": "npm:*"
     "@repo/typescript-config": "npm:*"
+    "@storybook/react": "npm:^8.3.3"
     "@turbo/gen": "npm:^1.12.4"
     "@types/eslint": "npm:^8.56.5"
     "@types/node": "npm:^20.11.24"
@@ -8975,7 +8976,7 @@ __metadata:
   dependencies:
     "@chromatic-com/storybook": "npm:^1.9.0"
     "@eslint/js": "npm:^9.9.0"
-    "@repo/ui": "workspace:^"
+    "@repo/ui": "workspace:*"
     "@storybook/addon-essentials": "npm:^8.3.3"
     "@storybook/addon-interactions": "npm:^8.3.3"
     "@storybook/addon-links": "npm:^8.3.3"

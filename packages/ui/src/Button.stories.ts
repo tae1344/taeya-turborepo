@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 
-import {Button} from '@repo/ui'
+import {Button} from './button'
 
 const meta = {
   title: 'Example/Button',
@@ -23,7 +23,7 @@ export const Primary: Story = {
   args: {
     primary: true,
     label: 'Button',
-    size: 'small'
+    size: 'small',
   },
 };
 
