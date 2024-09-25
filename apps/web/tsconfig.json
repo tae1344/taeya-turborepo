@@ -7,10 +7,6 @@
       }
     ]
   },
-  "paths": {
-    "@/*": ["./*"],
-    "@ui/*": ["../../packages/ui/*"]
-  },
   "include": [
     "next-env.d.ts",
     "next.config.mjs",
