@@ -10,7 +10,11 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+<<<<<<< HEAD
     "@storybook/react": "^8.3.3",
+=======
+    "@repo/tailwind-config": "*",
+>>>>>>> 9712037 (repository pull)
     "@turbo/gen": "^1.12.4",
     "@types/eslint": "^8.56.5",
     "@types/node": "^20.11.24",
@@ -19,7 +23,11 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.0",
     "postcss": "^8.4.47",
+<<<<<<< HEAD
     "tailwindcss": "^3.4.13",
+=======
+    "tailwindcss": "^3.4.12",
+>>>>>>> 9712037 (repository pull)
     "typescript": "^5.3.3"
   },
   "dependencies": {
